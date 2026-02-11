@@ -1,0 +1,30 @@
+# Xcode
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+.DS_Store?
+
+# Dependencies
+node_modules/
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/test_output/
+
+# Sensitive
+api_key.json
+*.p8
+
+# Misc
+*.hmap
+*.log
+

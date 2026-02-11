@@ -1,0 +1,7 @@
+app_identifier "com.sebastiandoyle.flipcoin"
+username "sebastian.doyle@outlook.com"
+skip_metadata true
+skip_binary_upload true
+overwrite_screenshots true
+force true
+precheck_include_in_app_purchases false

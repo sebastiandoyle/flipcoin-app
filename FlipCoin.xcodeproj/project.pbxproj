@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4051231A273DE22558B1150F /* fresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2D4062DB14CE1CDC29C724 /* fresh.png */; };
+		5F6E4E45A2F1023EC6A223D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A28771FB25AC764D222E060 /* ContentView.swift */; };
+		80F913891DB584D72FB64088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06943D7EAD7D7FF59944F458 /* Assets.xcassets */; };
+		85706B97A08FBA2A2280959A /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 171711A86EBD7B8B7E772F4F /* history.png */; };
+		A59F3090B087E40F780C8A6C /* heads.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEA4A3F47E6D62D385A2F25 /* heads.png */; };
+		A66FA5D9B487D0C5710B5590 /* FlipCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D7887D1A60C28C3283BC6B /* FlipCoinApp.swift */; };
+		C5E5C92F19B5358B580D7258 /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E8ABA842997657695AA5DBAB /* ipad.png */; };
+		CD5DF646ECCE6830068BB322 /* tails.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8789B22DAE8458F5BDC913 /* tails.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06943D7EAD7D7FF59944F458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A28771FB25AC764D222E060 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15D7887D1A60C28C3283BC6B /* FlipCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCoinApp.swift; sourceTree = "<group>"; };
+		171711A86EBD7B8B7E772F4F /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		2BEA4A3F47E6D62D385A2F25 /* heads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heads.png; sourceTree = "<group>"; };
+		36B25EFD13B4AA0378032134 /* FlipCoin.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FlipCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2D4062DB14CE1CDC29C724 /* fresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fresh.png; sourceTree = "<group>"; };
+		DE8789B22DAE8458F5BDC913 /* tails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tails.png; sourceTree = "<group>"; };
+		E8ABA842997657695AA5DBAB /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0888B1BAFA4979A2946B0622 = {
+			isa = PBXGroup;
+			children = (
+				A5F5E0623FF3178604E1C2CE /* FlipCoin */,
+				D88E85B81CEBB8D898CAB080 /* screenshots_raw */,
+				DBD8B41781E6BD646F610E63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F5E0623FF3178604E1C2CE /* FlipCoin */ = {
+			isa = PBXGroup;
+			children = (
+				06943D7EAD7D7FF59944F458 /* Assets.xcassets */,
+				0A28771FB25AC764D222E060 /* ContentView.swift */,
+				15D7887D1A60C28C3283BC6B /* FlipCoinApp.swift */,
+				D88E85B81CEBB8D898CAB080 /* screenshots_raw */,
+			);
+			name = FlipCoin;
+			path = .;
+			sourceTree = "<group>";
+		};
+		D88E85B81CEBB8D898CAB080 /* screenshots_raw */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D4062DB14CE1CDC29C724 /* fresh.png */,
+				2BEA4A3F47E6D62D385A2F25 /* heads.png */,
+				171711A86EBD7B8B7E772F4F /* history.png */,
+				E8ABA842997657695AA5DBAB /* ipad.png */,
+				DE8789B22DAE8458F5BDC913 /* tails.png */,
+			);
+			path = screenshots_raw;
+			sourceTree = "<group>";
+		};
+		DBD8B41781E6BD646F610E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36B25EFD13B4AA0378032134 /* FlipCoin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D6408D2EBBC2A43AE9E607B /* FlipCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A70EEB10B0CBC989BDCCB0 /* Build configuration list for PBXNativeTarget "FlipCoin" */;
+			buildPhases = (
+				85285C83B6F29950E88D8207 /* Sources */,
+				98E6E669643950387A5D5903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipCoin;
+			packageProductDependencies = (
+			);
+			productName = FlipCoin;
+			productReference = 36B25EFD13B4AA0378032134 /* FlipCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFAED3E07E0A912987A0B29C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4D6408D2EBBC2A43AE9E607B = {
+						DevelopmentTeam = 7277AB8379;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9D8B9D01E8AE10E6735FAAB4 /* Build configuration list for PBXProject "FlipCoin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0888B1BAFA4979A2946B0622;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D6408D2EBBC2A43AE9E607B /* FlipCoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98E6E669643950387A5D5903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F913891DB584D72FB64088 /* Assets.xcassets in Resources */,
+				4051231A273DE22558B1150F /* fresh.png in Resources */,
+				A59F3090B087E40F780C8A6C /* heads.png in Resources */,
+				85706B97A08FBA2A2280959A /* history.png in Resources */,
+				C5E5C92F19B5358B580D7258 /* ipad.png in Resources */,
+				CD5DF646ECCE6830068BB322 /* tails.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85285C83B6F29950E88D8207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6E4E45A2F1023EC6A223D4 /* ContentView.swift in Sources */,
+				A66FA5D9B487D0C5710B5590 /* FlipCoinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C3981C6E30ED3609A493441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7277AB8379;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = build/FlipCoin.xcarchive/Products/Applications/FlipCoin.app/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandoyle.flipcoin;
+				PRODUCT_NAME = FlipCoin;
+				SDKROOT = iphoneos;
+				SUPPORTED_DESTINATIONS = iPhone;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E59A9B6FBEA68AB0CB69D874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF2CB1DD43BBE496E038E621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFBD1F6CCA0B377384D9D613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7277AB8379;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = build/FlipCoin.xcarchive/Products/Applications/FlipCoin.app/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandoyle.flipcoin;
+				PRODUCT_NAME = FlipCoin;
+				SDKROOT = iphoneos;
+				SUPPORTED_DESTINATIONS = iPhone;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93A70EEB10B0CBC989BDCCB0 /* Build configuration list for PBXNativeTarget "FlipCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBD1F6CCA0B377384D9D613 /* Debug */,
+				8C3981C6E30ED3609A493441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D8B9D01E8AE10E6735FAAB4 /* Build configuration list for PBXProject "FlipCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59A9B6FBEA68AB0CB69D874 /* Debug */,
+				EF2CB1DD43BBE496E038E621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFAED3E07E0A912987A0B29C /* Project object */;
+}
